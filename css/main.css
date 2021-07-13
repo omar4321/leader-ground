@@ -1,0 +1,229 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f3f1ff;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #ffffff;
+  width: 870px;
+  padding: 30px;
+  margin-top: 24px;
+  border-radius: 5px;
+}
+/* nav-ara-----------
+------------------ */
+.nav-section {
+  background-color: #562eff;
+}
+.nav-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #562eff;
+}
+.nav-area .logo img {
+  width: 40.42px;
+  height: 51px;
+}
+.nav-area .logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.nav-area .logo h4 {
+  font-size: 17px;
+  color: #f3f1ff;
+  margin-left: 10px;
+}
+.nav-area .nav-ber ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.nav-area .nav-ber ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+}
+.nav-area .nav-ber ul li a {
+  color: #f3f1ff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-area .nav-ber ul li a:hover {
+  text-decoration: underline;
+}
+.nav-area .profile {
+  margin-right: 70px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* top-players-styles */
+.top-players {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.players .player img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+.top-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #562eff;
+  margin-top: 4px;
+}
+hr {
+  width: 100%;
+  height: 0px;
+
+  top: 410px;
+
+  border: 1px solid #d1d1d1;
+}
+
+/* top-blg-style */
+.blog .tumbile img {
+  width: 177px;
+  height: 117px;
+}
+.blog {
+  display: flex;
+  margin-top: 10px;
+}
+
+.blog .info {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.blog-title {
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.blog-anthor {
+  font-size: 16px;
+  color: #9f9f9f;
+}
+.blog-anthor a {
+  text-decoration: none;
+  color: #562eff;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* ------------- Lates Course--------- 
+------------------------------------*/
+.crouse-title {
+  color: #562eff;
+}
+.rat-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.crouse .banner img {
+  width: 266px;
+  height: 141px;
+}
+.crouse {
+  border: 3 px slid rgb(26, 0, 0);
+  background: #ffffff;
+  width: 250px;
+  height: 290px;
+  margin-bottom: 20px;
+}
+.fa-star {
+  color: #ffc014;
+}
+.other {
+  color: #aeaeae;
+}
+.crouses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.crouse-info h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.crouse-info h4 {
+  font-size: 13px;
+  line-height: 2px;
+}
+.crouse-info p {
+  font-size: 12px;
+}
+.rat-time {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.rat-time p {
+  color: gray;
+}
+.crouse-athor {
+  color: red;
+}
+
+.crouse-time {
+  color: #ff4a60;
+}
+.fotter-section {
+  background-color: #200597;
+  height: 80px;
+}
+.fotter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fotter h3 {
+  color: #ece9ff;
+  text-align: center;
+  font-size: 19px;
+}
+
+/*------------------------- media-query -------------
+----------------------------------------------------*/
+/* mobile-device */
+@media olny screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .players .top-blog {
+    grid-template-columns: repeat(1, fr);
+  }
+  .player .blog {
+    flex-direction: column;
+  }
+}
